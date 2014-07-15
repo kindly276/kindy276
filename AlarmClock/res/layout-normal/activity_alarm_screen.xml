@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/alarm_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/normal_snooze_image"
+        android:src="@drawable/alarm" />
+
+    <com.thao.alarmclock.MyTextView
+        android:id="@+id/alarm_screen_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarm_screen_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/normal_snooze_image"
+        android:text="00 : 00"
+        android:textColor="#00BFFF"
+        android:textSize="@dimen/normal_snooze_time" />
+
+    <TextView
+        android:id="@+id/alarm_screen_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarm_screen_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/normal_snooze_image"
+        android:text="Alarm name" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarm_screen_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/normal_snooze_button" >
+
+        <Button
+            android:id="@+id/alarm_screen_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button1"
+            android:text="Dismiss"
+            android:textSize="@dimen/normal_snooze_sizebutton" />
+
+        <Button
+            android:id="@+id/alarm_screen_snooze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:text="Snooze"
+            android:textSize="@dimen/normal_snooze_sizebutton" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alarm Clock</string>
+    <string name="action_settings">Settings</string>
+    <string name="details_alarm_name">Tên báo thức</string>
+    <string name="details_repeat_weekly">Lặp lại</string>
+    <string name="details_sunday">Chủ nhật</string>
+    <string name="details_monday">Thứ 2</string>
+    <string name="details_tuesday">Thứ 3</string>
+    <string name="details_wednesday">Thứ 4</string>
+    <string name="details_thursday">Thứ 5</string>
+    <string name="details_friday">Thứ 6</string>
+    <string name="details_saturday">Thứ 7</string>
+    <string name="details_alarm_typetone">Loại âm</string>
+    <string name="details_alarm_typetone_default">Chuông báo</string>
+    <string name="details_alarm_tone">Alarm Tone</string>
+    <string name="details_alarm_tone_default">Select an alarm tone</string>
+  
+
+</resources>
